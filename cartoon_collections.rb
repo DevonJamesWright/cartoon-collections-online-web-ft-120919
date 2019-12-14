@@ -23,7 +23,7 @@ def find_the_cheese(maybe_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   maybe_cheese.detect do |cheese|
     if cheese == "cheddar"
-      true 
+      true
     else 
       nil 
     end 
